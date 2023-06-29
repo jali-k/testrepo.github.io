@@ -1,0 +1,100 @@
+/* CSS for basic styling */
+
+/* Header styling */
+header {
+  background-color: #2E8540;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+body {
+  margin: 0px;
+}
+
+
+h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+/* Navigation bar styling */
+nav {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Section styling */
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #bdd4bc;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 30px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.tblp{
+  padding: 20px 80px;
+}
+
+.content {
+  margin: 0px 120px;
+}
+
+#myButton {
+  padding: 10px;
+}
+
+#myButton:hover {
+  background-color: green;
+  color: white;
+}
+
+#about {
+  text-align: center;
+}
+
+@media (min-width: 1200px){
+  body {
+    font-size: 1.3rem;
+  }
+
+}
+
+
+@media (max-width: 650px) {
+  
+  body {
+    background-color: #bdffce;
+  }
+}
